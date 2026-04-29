@@ -51,7 +51,36 @@
 
 <body>
 
+    <!-- Call Now Floating Button -->
+    <a href="tel:+18553000098" class="call-float">
+        <i class="fa-solid fa-phone"></i>
+    </a>
 
+    <style>
+        .call-float {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background-color: #035f95;
+            color: #fff;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            font-size: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            z-index: 9999;
+            transition: 0.3s;
+        }
+
+        .call-float:hover {
+            background-color: #024a74;
+            transform: scale(1.1);
+        }
+    </style>
 
     <!-- back to top start -->
     <div class="progress-wrap">
