@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+sitemap: http://safegaurdhome.com/sitemap.xml
