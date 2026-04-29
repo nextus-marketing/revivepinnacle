@@ -16,7 +16,19 @@
         </li>
         @endcan
 
-        @can('role-view')
+        <!-- @can('blog-view')
+            <li class="sidebar-item">
+                <a class="sidebar-link @if (Route::is('admin.blogs.*')) active @endif"
+                    href="{{ route('admin.blogs.index') }}" aria-expanded="false">
+                    <span>
+                        <i class="ti ti-topology-star-3"></i>
+                    </span>
+                    <span class="hide-menu">Blogs</span>
+                </a>
+            </li>
+        @endcan -->
+
+        {{-- @can('role-view')
         <li class="sidebar-item">
             <a class="sidebar-link @if(Route::is('admin.roles.*')) active @endif" href="{{ route('admin.roles.index') }}" aria-expanded="false">
                 <span>
@@ -127,7 +139,7 @@
                 <span class="hide-menu">Orders</span>
             </a>
         </li>
-        @endcan 
+        @endcan  --}}
         
         <!-- End of File -->
     </ul>

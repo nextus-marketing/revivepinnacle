@@ -1,67 +1,25 @@
 @extends('layouts.frontend')
 @section('title')
-    Revive Pinnacle | Smart CCTV, Alarm & Home Protection Systems
+    Revive Pinnacle | Smart & Reliable Home Security Solutions
 @endsection
 @section('content')
-    <div class="tp-sidebar-menu ">
-        <button class="sidebar-close"><i class="fal fa-times"></i></button>
-        <div class="side-logo mb-20">
-            <a href="/"><img src="/frontend/my_img/logo.png" alt="logo"></a>
-        </div>
-        <div class="mobile-menu">
-            <div class="sidebar-title">
-                <h3>CONTACT US</h3>
-            </div>
-            <ul class="sidebar-list">
-                {{-- <li>27 Division St, New York</li> --}}
-                <li><a href="tel:+18883826410">+1(888) 382-6410</a></li>
-                {{-- <li>sectox@mail.com</li> --}}
-            </ul>
-            {{-- <div class="tp-sidebar-social">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-dribbble"></i></a>
-            </div> --}}
-        </div>
-    </div>
-    <div class="body-overlay"></div>
-
-
-    <!-- tp-slider-area start  -->
     <div class="tp-slider-area">
-        <div class="slider-active slider-arrow-style slick-initialized slick-slider">
-            <div class="slick-list draggable">
-                <div class="slick-track" style="opacity: 1; width: 1521px;">
-                    <div class="tp-slider-item tp-slider-height tp-slider-overlay-2 d-flex align-items-center slick-slide slick-current slick-active"
-                        data-background="/frontend/my_img/slider/banner-1.webp" data-slick-index="0"
-                        style="background-image: url(&quot;/frontend/my_img/slider/banner-1.webp&quot;); width: 1521px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;"
-                        aria-hidden="false" tabindex="0">
-                        <img src="/frontend/my_img/slider/banner-1.webp" alt="Banner image 2" style="display: none;">
-                        <div class="container">
-                            <div class="row justify-content-xl-end">
-                                <div class="col-xxl-6 col-xl-6 col-lg-8">
-                                    <div class="tp-slider-content tp-slider-content-two">
-                                        <span class="tp-slider-sub-title">Smart Security, Smarter Living</span>
-                                        <h1 class="tp-slider-title">
-                                            Innovative <br class="mobile-br">
-                                            Technology at <br class="mobile-br">
-                                            Your Fingertips
-                                        </h1>
-                                        <p class="slider-para">
-                                            Control your home security remotely with <br class="mobile-br">
-                                            our smart accessories designed for <br class="mobile-br">
-                                            convenience and safety. Stay connected, <br class="mobile-br">
-                                            stay safe.
-                                        </p>
-                                        <div class="tp-slide-btn-box mt-45">
-                                            <div class="slider-btn mr-30">
-                                                <a href="tel:+18883826410" class="tp-btn-white" tabindex="0"
-                                                    contenteditable="false" style="cursor: pointer;"><i
-                                                        class="fa-solid fa-phone"></i>
-                                                    +1(888) 382-6410</a>
-                                            </div>
-                                        </div>
+        <div class="slider-active slider-arrow-style">
+            <div class="tp-slider-item tp-slider-height tp-slider-overlay-2 d-flex align-items-center"
+                data-background="/frontend/my_img/slider/banner-1.webp">
+                <img src="/frontend/my_img/slider/banner-1.webp" alt="Banner image 2" style="display: none;" />
+                <div class="container">
+                    <div class="row justify-content-xl-end">
+                        <div class="col-xxl-6 col-xl-6 col-lg-8">
+                            <div class="tp-slider-content tp-slider-content-two">
+                                <span class="tp-slider-sub-title">Smart Security, Smarter Living</span>
+                                <h1 class="tp-slider-title">Innovative Technology at Your Fingertips</h1>
+                                <p>Control your home security remotely with our smart accessories designed for convenience
+                                    and safety. Stay connected, stay safe.</p>
+                                <div class="tp-slide-btn-box mt-45">
+                                    <div class="slider-btn mr-30">
+                                        <a href="tel:+18553000098" class="tp-btn-white"><i class="fa-solid fa-phone"></i>
+                                            +1 (855) 300-0098</a>
                                     </div>
                                 </div>
                             </div>
@@ -71,9 +29,7 @@
             </div>
         </div>
     </div>
-    <!-- tp-slider-area end -->
 
-    <!-- about-area-start -->
     <div class="tp-about-area pt-80 pb-30" id="about">
         <div class="container">
             <div class="row">
@@ -101,8 +57,7 @@
                         </div>
                         <div class="tp-about-fea-signature d-flex align-items-center mt-25">
                             <div class="sig-btn mr-30 mb-10">
-                                <a class="tp-btn-border" href="tel:+18883826410" contenteditable="false"
-                                    style="cursor: pointer;"> <i class="fa-solid fa-phone"></i> Call Our
+                                <a class="tp-btn-border" href="tel:+18553000098"> <i class="fa-solid fa-phone"></i> Call Our
                                     Security Expert
                                     <i class="fal fa-long-arrow-right"></i></a>
                             </div>
@@ -117,11 +72,6 @@
             </div>
         </div>
     </div>
-    <!-- about-area-end -->
-
-
-
-    <!-- service-area-start -->
     <div class="service-area grey-bg pt-80 pb-30">
         <div class="container">
             <div class="row text-center">
@@ -129,10 +79,9 @@
                     <div class="tp-section-box tp-section-box-2 p-relative mb-45">
                         <span class="tp-section-subtitle d-inline-block pre mb-10"> What We Provide</span>
                         <h2 class="tp-section-title">
-                            We Provide Trusted Expert Secuirity Services
+                            We Provide Trusted Expert Security Services
                         </h2>
-                        <p>At Revive Pinnacle, we offer expert security solutions tailored to protect what matters
-                            most.
+                        <p>At Revive Pinnacle, we offer expert security solutions tailored to protect what matters most.
                             With advanced technology and professional care, we ensure your safety and peace of mind.
                         </p>
                     </div>
@@ -142,12 +91,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="tpsvbox mb-30">
                         <div class="tpsvbox__thumb">
-                            <div class="fix"><a href="#0" contenteditable="false" style="cursor: pointer;"><img
-                                        src="/frontend/my_img/wwp-1.webp" alt="Private Security"></a>
+                            <div class="fix"><a href="#0"><img src="/frontend/my_img/wwp-1.webp"
+                                        alt="Private Security"></a>
                             </div>
                             <div class="tpsvbox__icon">
-                                <a href="#0" contenteditable="false" style="cursor: pointer;"> <i
-                                        class="fas fa-shield-alt"></i></a>
+                                <a href="#0"> <i class="fas fa-shield-alt"></i></a>
                             </div>
                         </div>
                         <div class="tpsvbox__content text-center">
@@ -155,21 +103,20 @@
                                 <h2>01</h2>
                             </div>
                             <h3 class="tpsvbox__title">Private Security</h3>
-                            <p class="m-0">Delivering high-quality security systems and the latest technology to keep
-                                you safe and secure.
-                            </p><br>
+                            <p class="m-0">Delivering high-quality security systems and the latest technology to keep you
+                                safe and secure.
+                            </p></br>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="tpsvbox mb-30">
                         <div class="tpsvbox__thumb">
-                            <div class="fix"><a href="#0" contenteditable="false" style="cursor: pointer;"><img
-                                        src="/frontend/my_img/bank.png" alt="Banking Sector"></a>
+                            <div class="fix"><a href="#0"><img src="/frontend/my_img/bank.png"
+                                        alt="Banking Sector"></a>
                             </div>
                             <div class="tpsvbox__icon">
-                                <a href="#0" contenteditable="false" style="cursor: pointer;"><i
-                                        class="fas fa-university"></i></a>
+                                <a href="#0"><i class="fas fa-university"></i></a>
                             </div>
                         </div>
                         <div class="tpsvbox__content text-center">
@@ -186,11 +133,10 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="tpsvbox mb-30">
                         <div class="tpsvbox__thumb">
-                            <div class="fix"><a href="#0" contenteditable="false" style="cursor: pointer;"><img
-                                        src="/frontend/my_img/education.png" alt="Education Institute"></a></div>
+                            <div class="fix"><a href="#0"><img src="/frontend/my_img/education.png"
+                                        alt="Education Institute"></a></div>
                             <div class="tpsvbox__icon">
-                                <a href="#0" contenteditable="false" style="cursor: pointer;"><i
-                                        class="flaticon-school"></i></a>
+                                <a href="#0"><i class="flaticon-school"></i></a>
                             </div>
                         </div>
                         <div class="tpsvbox__content text-center">
@@ -199,18 +145,17 @@
                             </div>
                             <h3 class="tpsvbox__title">Education Institute
                             </h3>
-                            <p class="m-0">Secure your campus with Revive Pinnacle. Monitor and protect anytime,
+                            <p class="m-0">Secure your education campus with Revive Pinnacle. Monitor and protect
+                                anytime,
                                 anywhere.
-                            </p><br>
+                            </p></br>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- service-area-end -->
 
-    <!-- project-area-start -->
     <div class="team-details-area pt-80 pb-20">
         <div class="container">
             <div class="row">
@@ -220,8 +165,7 @@
                             <h5>15 Years of Excellence in Security Solutions
                             </h5>
                             <p>With over 15 years of expertise in the field, we have been committed to delivering the best
-                                in security and automation solutions. Revive Pinnacle has consistently ranked among the
-                                top
+                                in security and automation solutions. Revive Pinnacle has consistently ranked among the top
                                 100 security companies in the nation by SDM Magazine, a testament to our dedication to
                                 quality and innovation.
                                 <br>
@@ -231,8 +175,7 @@
                             </p>
                         </div>
                         <div class="sig-btn mr-30 mb-10">
-                            <a class="tp-btn-border" href="tel:+18883826410" contenteditable="false"
-                                style="cursor: pointer;"> <i class="fa-solid fa-phone"></i> Talk To
+                            <a class="tp-btn-border" href="tel:+18553000098"> <i class="fa-solid fa-phone"></i> Talk To
                                 Security Expert
                                 <i class="fal fa-long-arrow-right"></i></a>
                         </div>
@@ -250,7 +193,7 @@
                     <div class="team-member">
                         <img src="/frontend/my_img/why_choose.png" alt="Why Choose Revive Pinnacle">
                     </div>
-                    <br>
+                    </br>
                 </div>
                 <div class="col-xl-6">
                     <div class="team-info-main pt-0 pl-45">
@@ -261,7 +204,7 @@
                             <p class="mb-1">Choose us for expert solutions, reliable service, and unmatched dedication to
                                 your security
                                 and convenience needs. Your safety is our priority
-                            </p><br>
+                            </p></br>
                         </div>
                         <div class="tp-ab-4-list">
                             <div class="tp-about-fea-item">
@@ -277,8 +220,7 @@
                             </div>
                         </div>
                         <div class="sig-btn mr-30 mb-10">
-                            <a class="tp-btn-border" href="tel:+18883826410" contenteditable="false"
-                                style="cursor: pointer;"> <i class="fa-solid fa-phone"></i> Call Now
+                            <a class="tp-btn-border" href="tel:+18553000098"> <i class="fa-solid fa-phone"></i> Call Now
                                 To Speak With Expert
                             </a>
                         </div>
@@ -287,7 +229,6 @@
             </div>
         </div>
     </div>
-    <!-- project-area-end -->
 
     <div class="testimonial-area pt-80 pb-30">
         <div class="container">
@@ -300,206 +241,86 @@
                         </h2>
                     </div>
                 </div>
-                {{-- <div class="col-lg-6">
-                    <div class="tp-test-arrow text-end mb-45"><button type="button" class="slick-prev slick-arrow"
-                            style=""><i class="fa-solid fa-arrow-left"></i></button><button type="button"
-                            class="slick-next slick-arrow" style=""><i
-                                class="fa-solid fa-arrow-right"></i></button></div>
-                </div> --}}
+                <div class="col-lg-6">
+                    <div class="tp-test-arrow text-end mb-45"></div>
+                </div>
             </div>
-            <div class="tp-testimonial-active tp-testimonial-white slider-space-30 slick-initialized slick-slider">
-                <div class="slick-list draggable">
-                    <div class="slick-track"
-                        style="opacity: 1; width: 4862px; transform: translate3d(-1326px, 0px, 0px);">
-                        <div class="testi-item-list slick-slide slick-cloned" data-slick-index="-3" id=""
-                            aria-hidden="true" tabindex="-1" style="width: 442px;">
-                            <div class="tp-testimonial-item text-center">
-                                <div class="testi-img p-relative">
-                                    <img src="/frontend/assets/img/testimonial/test2.png" alt="User-2">
-                                    <i class="fal fa-quote-right quote-style"></i>
-                                </div>
-                                <h4 class="testi-text">“The installation was fast, and now I feel
-                                    much safer at home. I highly recommend them to anyone looking for reliable home
-                                    monitoring. Service was top-notch.”</h4>
-                                <br>
-                                <div class="testi-meta">
-                                    <h5 class="reviewer-name">Limbon N. Nelson</h5>
-                                </div>
-                            </div>
+            <div class="tp-testimonial-active tp-testimonial-white slider-space-30">
+                <div class="testi-item-list">
+                    <div class="tp-testimonial-item text-center">
+                        <div class="testi-img p-relative">
+                            <img src="/frontend/assets/img/testimonial/test1.png" alt="User-1">
+                            <i class="fal fa-quote-right quote-style"></i>
                         </div>
-                        <div class="testi-item-list slick-slide slick-cloned" data-slick-index="-2" id=""
-                            aria-hidden="true" tabindex="-1" style="width: 442px;">
-                            <div class="tp-testimonial-item text-center">
-                                <div class="testi-img p-relative">
-                                    <img src="/frontend/assets/img/testimonial/test3.png" alt="User-3">
-                                    <i class="fal fa-quote-right quote-style"></i>
-                                </div>
-                                <h4 class="testi-text">“They made the entire process easy from start to finish. The service
-                                    is reliable, and the peace
-                                    of mind it brings is worth every penny Great service, quick response times, and friendly
-                                    support.”</h4>
-                                <div class="testi-meta">
-                                    <h5 class="reviewer-name">William Harris</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testi-item-list slick-slide slick-cloned" data-slick-index="-1" id=""
-                            aria-hidden="true" tabindex="-1" style="width: 442px;">
-                            <div class="tp-testimonial-item text-center">
-                                <div class="testi-img p-relative">
-                                    <img src="/frontend/my_img/person-1.jpg" alt="User-4">
-                                    <i class="fal fa-quote-right quote-style"></i>
-                                </div>
-                                <h4 class="testi-text">“Reliable, easy to use, and gives me peace of mind knowing my home
-                                    is protected 24/7. Highly recommend, Great protection and easy control from my phone.”
-                                </h4>
-                                <br>
-                                <div class="testi-meta">
-                                    <h5 class="reviewer-name">David Thompson</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testi-item-list slick-slide slick-current slick-active" data-slick-index="0"
-                            aria-hidden="false" tabindex="0" style="width: 442px;">
-                            <div class="tp-testimonial-item text-center">
-                                <div class="testi-img p-relative">
-                                    <img src="/frontend/assets/img/testimonial/test1.png" alt="User-1">
-                                    <i class="fal fa-quote-right quote-style"></i>
-                                </div>
-                                <h4 class="testi-text">“I’ve tried other services before, but nothing compares to this. The
-                                    team was professional, the
-                                    system is easy to use, and the peace of mind is priceless. Definitely a 5-star
-                                    experience.”</h4>
-                                <div class="testi-meta">
-                                    <h5 class="reviewer-name">James Carter</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testi-item-list slick-slide slick-active" data-slick-index="1" aria-hidden="false"
-                            tabindex="0" style="width: 442px;">
-                            <div class="tp-testimonial-item text-center">
-                                <div class="testi-img p-relative">
-                                    <img src="/frontend/assets/img/testimonial/test2.png" alt="User-2">
-                                    <i class="fal fa-quote-right quote-style"></i>
-                                </div>
-                                <h4 class="testi-text">“The installation was fast, and now I feel
-                                    much safer at home. I highly recommend them to anyone looking for reliable home
-                                    monitoring. Service was top-notch.”</h4>
-                                <br>
-                                <div class="testi-meta">
-                                    <h5 class="reviewer-name">Limbon N. Nelson</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testi-item-list slick-slide slick-active" data-slick-index="2" aria-hidden="false"
-                            tabindex="0" style="width: 442px;">
-                            <div class="tp-testimonial-item text-center">
-                                <div class="testi-img p-relative">
-                                    <img src="/frontend/assets/img/testimonial/test3.png" alt="User-3">
-                                    <i class="fal fa-quote-right quote-style"></i>
-                                </div>
-                                <h4 class="testi-text">“They made the entire process easy from start to finish. The service
-                                    is reliable, and the peace
-                                    of mind it brings is worth every penny Great service, quick response times, and friendly
-                                    support.”</h4>
-                                <div class="testi-meta">
-                                    <h5 class="reviewer-name">William Harris</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testi-item-list slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1"
-                            style="width: 442px;">
-                            <div class="tp-testimonial-item text-center">
-                                <div class="testi-img p-relative">
-                                    <img src="/frontend/my_img/person-1.jpg" alt="User-4">
-                                    <i class="fal fa-quote-right quote-style"></i>
-                                </div>
-                                <h4 class="testi-text">“Reliable, easy to use, and gives me peace of mind knowing my home
-                                    is protected 24/7. Highly recommend, Great protection and easy control from my phone.”
-                                </h4>
-                                <br>
-                                <div class="testi-meta">
-                                    <h5 class="reviewer-name">David Thompson</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testi-item-list slick-slide slick-cloned" data-slick-index="4" id=""
-                            aria-hidden="true" tabindex="-1" style="width: 442px;">
-                            <div class="tp-testimonial-item text-center">
-                                <div class="testi-img p-relative">
-                                    <img src="/frontend/assets/img/testimonial/test1.png" alt="User-1">
-                                    <i class="fal fa-quote-right quote-style"></i>
-                                </div>
-                                <h4 class="testi-text">“I’ve tried other services before, but nothing compares to this. The
-                                    team was professional, the
-                                    system is easy to use, and the peace of mind is priceless. Definitely a 5-star
-                                    experience.”</h4>
-                                <div class="testi-meta">
-                                    <h5 class="reviewer-name">James Carter</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testi-item-list slick-slide slick-cloned" data-slick-index="5" id=""
-                            aria-hidden="true" tabindex="-1" style="width: 442px;">
-                            <div class="tp-testimonial-item text-center">
-                                <div class="testi-img p-relative">
-                                    <img src="/frontend/assets/img/testimonial/test2.png" alt="User-2">
-                                    <i class="fal fa-quote-right quote-style"></i>
-                                </div>
-                                <h4 class="testi-text">“The installation was fast, and now I feel
-                                    much safer at home. I highly recommend them to anyone looking for reliable home
-                                    monitoring. Service was top-notch.”</h4>
-                                <br>
-                                <div class="testi-meta">
-                                    <h5 class="reviewer-name">Limbon N. Nelson</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testi-item-list slick-slide slick-cloned" data-slick-index="6" id=""
-                            aria-hidden="true" tabindex="-1" style="width: 442px;">
-                            <div class="tp-testimonial-item text-center">
-                                <div class="testi-img p-relative">
-                                    <img src="/frontend/assets/img/testimonial/test3.png" alt="User-3">
-                                    <i class="fal fa-quote-right quote-style"></i>
-                                </div>
-                                <h4 class="testi-text">“They made the entire process easy from start to finish. The service
-                                    is reliable, and the peace
-                                    of mind it brings is worth every penny Great service, quick response times, and friendly
-                                    support.”</h4>
-                                <div class="testi-meta">
-                                    <h5 class="reviewer-name">William Harris</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testi-item-list slick-slide slick-cloned" data-slick-index="7" id=""
-                            aria-hidden="true" tabindex="-1" style="width: 442px;">
-                            <div class="tp-testimonial-item text-center">
-                                <div class="testi-img p-relative">
-                                    <img src="/frontend/my_img/person-1.jpg" alt="User-4">
-                                    <i class="fal fa-quote-right quote-style"></i>
-                                </div>
-                                <h4 class="testi-text">“Reliable, easy to use, and gives me peace of mind knowing my home
-                                    is protected 24/7. Highly recommend, Great protection and easy control from my phone.”
-                                </h4>
-                                <br>
-                                <div class="testi-meta">
-                                    <h5 class="reviewer-name">David Thompson</h5>
-                                </div>
-                            </div>
+                        <h4 class="testi-text">“I’ve tried other services before, but nothing compares to this. The team
+                            was professional, the
+                            system is easy to use, and the peace of mind is priceless. Definitely a 5-star experience.”</h4>
+                        <div class="testi-meta">
+                            <h5 class="reviewer-name">James Carter</h5>
                         </div>
                     </div>
                 </div>
-
-
-
+                <div class="testi-item-list">
+                    <div class="tp-testimonial-item text-center">
+                        <div class="testi-img p-relative">
+                            <img src="/frontend/assets/img/testimonial/test2.png" alt="User-2">
+                            <i class="fal fa-quote-right quote-style"></i>
+                        </div>
+                        <h4 class="testi-text">“The installation was fast, and now I feel
+                            much safer at home. I highly recommend them to anyone looking for reliable home monitoring.
+                            Service was top-notch.”</h4>
+                        </br>
+                        <div class="testi-meta">
+                            <h5 class="reviewer-name">Limbon N. Nelson</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-item-list">
+                    <div class="tp-testimonial-item text-center">
+                        <div class="testi-img p-relative">
+                            <img src="/frontend/assets/img/testimonial/test3.png" alt="User-3">
+                            <i class="fal fa-quote-right quote-style"></i>
+                        </div>
+                        <h4 class="testi-text">“They made the entire process easy from start to finish. The service is
+                            reliable, and the peace
+                            of mind it brings is worth every penny Great service, quick response times, and friendly
+                            support.”</h4>
+                        <div class="testi-meta">
+                            <h5 class="reviewer-name">William Harris</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-item-list">
+                    <div class="tp-testimonial-item text-center">
+                        <div class="testi-img p-relative">
+                            <img src="/frontend/my_img/person-1.jpg" alt="User-4">
+                            <i class="fal fa-quote-right quote-style"></i>
+                        </div>
+                        <h4 class="testi-text">“Reliable, easy to use, and gives me peace of mind knowing my home is
+                            protected 24/7. Highly recommend, Great protection and easy control from my phone.”</h4>
+                        </br>
+                        <div class="testi-meta">
+                            <h5 class="reviewer-name">David Thompson</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
+    <style>
+        .testi-text {
+            font-size: 18px !important;
+            color: var(--tp-common-black);
+            font-weight: unset !important;
+            line-height: 1.4 !important;
+            margin-bottom: 15px !important;
+        }
+    </style>
 
-    <div class="tp-support-area pt-70 pb-30 p-relative" data-background="/frontend/my_img/support-bg.webp" id="contact"
-        style="background-image: url(&quot;/frontend/my_img/support-bg.webp&quot;);">
-        <img src="/frontend/my_img/support-bg.webp" alt="Get support" style="display: none;">
+    <div class="tp-support-area pt-70 pb-30 p-relative" data-background="/frontend/my_img/support-bg.webp"
+        id="contact">
+        <img src="/frontend/my_img/support-bg.webp" alt="Get support" style="display: none;" />
 
         <div class="container">
             <div class="row">
@@ -522,7 +343,7 @@
                     <div class="tpsupport-wrapper d-flex justify-content-center">
                         <!-- Button 1: Call Now -->
                         <div class="tpsupport-ovr-button me-3">
-                            <a class="tp-btn" href="tel:+18883826410" contenteditable="false" style="cursor: pointer;">
+                            <a class="tp-btn" href="tel:+18553000098">
                                 <i class="fa-solid fa-phone"></i>
                                 Call Now To Speak With Expert
                                 <i class="fal fa-angle-right"></i>
@@ -533,6 +354,25 @@
             </div>
         </div>
     </div>
+
+
+    <style>
+        .tp-btn {
+            display: inline-block;
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--tp-common-white);
+            background: var(--tp-theme-1);
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            padding: 0 14px;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+        }
+    </style>
+
 
     <div class="tp-feature-area pt-75 pb-30">
         <div class="container">
@@ -577,16 +417,20 @@
                 <div class="col-lg-6 justify-content-center p-relative d-none d-xl-flex">
                     <div class="tp-fea-big-img p-relative">
                         <img src="/frontend/my_img/camera.webp" alt="camera">
-                        {{-- <div class="tp-fea-plus-icon ">
-                            <a href="#0" contenteditable="false" style="cursor: pointer;"><i
-                                    class="fal fa-plus"></i></a>
-
-                        </div> --}}
-                        {{-- <div class="tp-fea-plus-icon2">
-                            <a href="#0" contenteditable="false" style="cursor: pointer;"><i
-                                    class="fal fa-plus"></i></a>
-
-                        </div> --}}
+                        <div class="tp-fea-plus-icon ">
+                            {{-- <a href="#0"><i class="fal fa-plus"></i></a> --}}
+                            {{-- <div class="fea-plus-icon-text">
+                                <h4 class="m-0">Video analytics systems with <br>
+                                    smart cctv</h4>
+                            </div> --}}
+                        </div>
+                        <div class="tp-fea-plus-icon2">
+                            {{-- <a href="#0"><i class="fal fa-plus"></i></a> --}}
+                            {{-- <div class="fea-plus-icon-text2">
+                                <h4 class="m-0">Video analytics systems with <br>
+                                    smart cctv</h4>
+                            </div> --}}
+                        </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6">
@@ -610,7 +454,7 @@
                             </div>
                         </div>
                         <div class="tp-fea-content pt-40">
-                            <h5>CCTV &amp; Screening</h5>
+                            <h5>CCTV & Screening</h5>
                             <p class="m-0">Comprehensive CCTV and screening solutions for round-the-clock surveillance.
                             </p>
                         </div>
@@ -619,7 +463,6 @@
             </div>
         </div>
     </div>
-
     <div class="tp-footer-counter-area theme-bg pt-25">
         <div class="container">
             <div class="row align-items-center justify-content-center text-center">
@@ -649,5 +492,6 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 @endsection

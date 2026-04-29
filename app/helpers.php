@@ -191,3 +191,19 @@ function inRupee($num, $symbol = true, $pdf = false)
     }
 
 }
+
+if (!function_exists('abort404')) {
+    function abort404()
+    {
+        abort(404);
+    }
+}
+
+function toIndianDate($datetime)
+{
+    return \Carbon\Carbon::parse($datetime)->format('d-m-Y');
+}
+function formatDate($date)
+{
+    return \Carbon\Carbon::parse($date)->format(' F d Y ');
+}

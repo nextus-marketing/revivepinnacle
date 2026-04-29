@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-sitemap: http://safegaurdhome.com/sitemap.xml
+sitemap: https://nextushomesecurity.com/sitemap.xml

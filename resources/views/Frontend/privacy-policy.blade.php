@@ -3,14 +3,13 @@
     Privacy Policy | Revive Pinnacle
 @endsection
 @section('content')
-    <section class="breadcrumb__area include-bg pt-150 pb-150" data-background="/frontend/my_img/bredcrum.jpg"
-        style="background-image: url(/frontend/my_img/bredcrum.jpg);">
+    <section class="breadcrumb__area include-bg pt-150 pb-150" data-background="/frontend/my_img/bredcrum.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-12">
                     <div class="breadcrumb__content p-relative z-index-1">
                         <div class="breadcrumb__list mb-10">
-                            <span><a href="/" contenteditable="false" style="cursor: pointer;">Home</a></span>
+                            <span><a href="/">Home</a></span>
                             <span class="dvdr"><i class="flaticon-arrow-right"></i></span>
                             <span>Privacy Policy</span>
                         </div>
@@ -20,6 +19,7 @@
             </div>
         </div>
     </section>
+
     <div class="tp-about-area pt-70 pb-70">
         <div class="container">
             <div class="row">
@@ -28,8 +28,7 @@
                         <div class="tp-section-box tp-section-box-2 p-relative">
                             <span class="tp-section-subtitle right d-inline-block">Privacy Policy</span>
                             <p class="mb-15 mt-3">
-                                At <b>Revive Pinnacle</b>, we are committed to protecting your privacy. This Privacy
-                                Policy
+                                At <b>Revive Pinnacle</b>, we are committed to protecting your privacy. This Privacy Policy
                                 outlines how we collect, use, and safeguard your personal information when you interact
                                 with our products, services, and website. By using our services, you agree to the collection
                                 and use of information in accordance with this policy.
@@ -60,8 +59,7 @@
                                 <p class="mt-30"><strong>4. Contact Us</strong></p>
                                 <p>If you have any questions about this Privacy Policy or how we handle your personal
                                     information, please contact us:</p>
-                                <p><strong>Phone:</strong> <a href="tel:+18883826410" contenteditable="false"
-                                        style="cursor: pointer;">+1(888) 382-6410</a></p>
+                                <p><strong>Phone:</strong> <a href="tel:+18553000098">+1 (855) 300-0098</a></p>
                                 <!-- <p><strong>Address:</strong> 21 Glenside Annandale, NJ, 08801</p> -->
                                 <p class="mt-30">By using our services, you consent to the terms of this Privacy Policy.
                                 </p>

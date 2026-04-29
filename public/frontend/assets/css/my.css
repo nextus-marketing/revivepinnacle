@@ -300,3 +300,27 @@
     }
 
 }
+
+.tp-test-arrow button {
+    height: 60px;
+    width: 60px;
+    background: #035f95;
+    border-radius: 50%;
+    color: #fff;
+    border: 1px solid #035f95;
+}
+
+.tp-btn {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff !important;
+    background: #035f95 !important;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 14px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}

@@ -1,7 +1,9 @@
 @extends('layouts.frontend')
+
 @section('title')
-    404 | Revive Pinnacle
+    404 Not Found | Revive Pinnacle
 @endsection
+
 @section('content')
     <div class="tp-process-area grey-bg pt-115 pb-90">
         <div class="container">
@@ -23,8 +25,7 @@
                         <!-- Smaller button -->
                         <div class="contact__btn">
                             <a class="tp-btn" href="/"
-                                style="display: inline-block; padding: 0px 25px; font-size: 16px; width: auto; min-width: 150px; cursor: pointer;"
-                                contenteditable="false">
+                                style="display:inline-block; padding:0px 25px; font-size:16px; width:auto; min-width:150px;">
                                 Back To Home <i class="fal fa-long-arrow-right"></i>
                             </a>
                         </div>

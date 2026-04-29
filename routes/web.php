@@ -14,21 +14,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('Frontend.home');
-});
-Route::get('/privacy-policy', function () {
-    return view('Frontend.privacy-policy');
-});
-Route::get('/terms-and-condition', function () {
-    return view('Frontend.terms-and-condition');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::view('/', 'Frontend.home')->name('home');
+// Route::view('/about', 'Frontend.about')->name('about');
+// Route::view('/services', 'Frontend.services')->name('services');
+// Route::view('/contact', 'Frontend.contact')->name('contact');
+// Route::view('/thankyou', 'Frontend.thankyou')->name('thankyou');
+
+Route::view('/privacy-policy', 'Frontend.privacy-policy')->name('privacy-policy');
+Route::view('/terms-and-condition', 'Frontend.terms-and-condition')->name('terms-and-condition');
+
 
 Route::fallback(function () {
     return response()->view('Error.404', [], 404);
 });
-
-
 
 require __DIR__ . '/auth.php';
 require __DIR__ . '/backend.php';

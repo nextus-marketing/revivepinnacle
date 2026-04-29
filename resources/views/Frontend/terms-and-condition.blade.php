@@ -3,23 +3,23 @@
     Terms and Conditions | Revive Pinnacle
 @endsection
 @section('content')
-    <section class="breadcrumb__area include-bg pt-150 pb-150" data-background="/frontend/my_img/bredcrum.jpg"
-        style="background-image: url(/frontend/my_img/bredcrum.jpg);">
+    <section class="breadcrumb__area include-bg pt-150 pb-150" data-background="/frontend/my_img/bredcrum.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-12">
                     <div class="breadcrumb__content p-relative z-index-1">
                         <div class="breadcrumb__list mb-10">
-                            <span><a href="/" contenteditable="false" style="cursor: pointer;">Home</a></span>
+                            <span><a href="/">Home</a></span>
                             <span class="dvdr"><i class="flaticon-arrow-right"></i></span>
                             <span>Terms and Conditions</span>
                         </div>
-                        <h3 class="breadcrumb__title">Terms &amp; Conditions</h3>
+                        <h3 class="breadcrumb__title">Terms & Conditions</h3>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <div class="tp-about-area pt-70 pb-70">
         <div class="container">
             <div class="row">
@@ -28,8 +28,8 @@
                         <div class="tp-section-box tp-section-box-2 p-relative">
                             <span class="tp-section-subtitle right d-inline-block">Terms and Conditions</span>
                             <p class="mb-15 mt-3">
-                                Welcome to <b>Revive Pinnacle</b>, These Terms and Conditions (“Terms”) govern your use
-                                of our
+                                Welcome to <b>Revive Pinnacle</b>, These Terms and Conditions (“Terms”) govern your use of
+                                our
                                 website, products, and services. By accessing or using our website or services, you agree
                                 to be bound by these Terms. If you do not agree with any part of these Terms, please do not
                                 use our services.
@@ -88,8 +88,7 @@
                                     non-infringement. We do not guarantee uninterrupted or error-free service.</p>
 
                                 <p class="mt-30"><strong>8. Limitation of Liability</strong></p>
-                                <p>To the maximum extent permitted by law, Revive Pinnacle is not liable for any
-                                    indirect,
+                                <p>To the maximum extent permitted by law, Revive Pinnacle is not liable for any indirect,
                                     incidental,
                                     special, or consequential damages arising from your use of the website or services, even
                                     if we have
@@ -122,8 +121,7 @@
 
                                 <p class="mt-30"><strong>13. Contact Us</strong></p>
                                 <p>If you have any questions about these Terms, please contact us:</p>
-                                <p><strong>Phone:</strong> <a href="tel:+18883826410" contenteditable="false"
-                                        style="cursor: pointer;">+1(888) 382-6410</a></p>
+                                <p><strong>Phone:</strong> <a href="tel:+18553000098">+1 (855) 300-0098</a></p>
                                 <!-- <p><strong>Address:</strong> 21 Glenside Annandale, NJ, 08801</p>  -->
                             </div>
                         </div>
